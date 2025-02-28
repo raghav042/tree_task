@@ -1,9 +1,8 @@
 import 'package:flutter/material.dart';
-
 import '../core/enum/check_box_state.dart';
 
-class TitleCheckBox extends StatelessWidget {
-  const TitleCheckBox({
+class CheckBoxTile extends StatelessWidget {
+  const CheckBoxTile({
     super.key,
     required this.title,
     required this.checkBoxState,

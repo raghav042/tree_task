@@ -62,7 +62,7 @@ class _TreeViewState extends State<TreeView> {
       itemBuilder: (context, index) {
         return Column(
           children: [
-            TitleCheckBox(
+            CheckBoxTile(
               onChanged: () {
                 switch (nodes[index].checkBoxState) {
                   case CheckBoxState.selected:
