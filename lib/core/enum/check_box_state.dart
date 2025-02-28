@@ -1,5 +1,1 @@
-enum CheckBoxState {
-  selected,
-  unselected,
-  partial,
-}
+enum CheckBoxState { selected, unselected }

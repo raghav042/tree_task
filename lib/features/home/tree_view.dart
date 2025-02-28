@@ -63,7 +63,7 @@ class _TreeViewState extends State<TreeView> {
         return Column(
           children: [
             CheckBoxTile(
-              onChanged: () {
+              onChanged: (v) {
                 switch (nodes[index].checkBoxState) {
                   case CheckBoxState.selected:
                     nodes[index] = _unselectAllSubTree(nodes[index]);
@@ -71,9 +71,9 @@ class _TreeViewState extends State<TreeView> {
                   case CheckBoxState.unselected:
                     nodes[index] = _selectAllSubTree(nodes[index]);
                     break;
-                  case CheckBoxState.partial:
-                    nodes[index] = _unselectAllSubTree(nodes[index]);
-                    break;
+                  // case CheckBoxState.partial:
+                  //   nodes[index] = _unselectAllSubTree(nodes[index]);
+                  //   break;
                 }
                 if (widget.level == 0) {
                   setState(() {});

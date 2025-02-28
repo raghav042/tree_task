@@ -10,12 +10,7 @@ class TreeNode {
     required this.title,
     this.isSelected = false,
     this.children = const <TreeNode>[],
-  }) : checkBoxState = isSelected
-            ? CheckBoxState.selected
-            : (children.any((element) =>
-                    element.checkBoxState != CheckBoxState.unselected)
-                ? CheckBoxState.partial
-                : CheckBoxState.unselected);
+  }) : checkBoxState = isSelected ? CheckBoxState.selected : CheckBoxState.unselected;
 
   TreeNode copyWith({
     String? title,
