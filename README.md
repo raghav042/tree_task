@@ -1,6 +1,12 @@
-# tree_task
+# Task
 
-A new Flutter project.
+## Problem: Create a functionality as shown in the video, use single array only.
+
+# Task video
+[Task video](https://youtu.be/mi2_dnXOSHU?feature=shared)
+
+# Output video
+[Output video](https://youtube.com/shorts/bxYem3f2AQU?feature=shared)
 
 ## Getting Started
 
