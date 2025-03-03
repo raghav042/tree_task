@@ -1,0 +1,1 @@
+Problem: Implement the feature as shown in this video.use only single array.
